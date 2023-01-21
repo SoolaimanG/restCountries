@@ -1,0 +1,31 @@
+nav {
+  background: var(--Dark-Blue);
+  color: var(--Very-Light-Gray);
+  -webkit-box-shadow: 3px 3px 9px 0.5px #000000;
+  -moz-box-shadow: 3px 3px 9px 0.5px #000000;
+  box-shadow: 3px 3px 9px 0.5px #000000;
+}
+
+.nav__one {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav__two {
+  display: flex;
+  gap: 0.5rem;
+}
+.nav__two h5 {
+  cursor: pointer;
+}
+/* MEDIA QUERY(TABLET) */
+
+@media (max-width: 600px) {
+  .nav__one h3 {
+    font-size: 1rem;
+  }
+  .nav__two svg,
+  h5 {
+    font-size: 0.8rem;
+  }
+}

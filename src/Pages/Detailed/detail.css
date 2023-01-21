@@ -1,0 +1,19 @@
+.detail__one {
+  display: flex;
+  align-items: center;
+  width: 100px;
+  background-color: var(--Dark-Blue);
+  justify-content: space-between;
+  padding: 0.3rem 0.5rem;
+  border-radius: 5px;
+  margin: 1.5rem 0rem;
+  -webkit-box-shadow: 3px 3px 9px 0.5px #000000;
+  -moz-box-shadow: 3px 3px 9px 0.5px #000000;
+  box-shadow: 3px 3px 9px 0.5px #000000;
+}
+.detail__image {
+  width: 100%;
+}
+.detail__zero {
+  margin-top: 3rem;
+}
